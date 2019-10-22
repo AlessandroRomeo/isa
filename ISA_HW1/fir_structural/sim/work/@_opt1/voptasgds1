@@ -1,0 +1,418 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp19.26/Desktop/fully_connected_4x4_unif/sim
+T_opt
+Z1 V8zR[_W2oQo`Q63<7F05_k1
+Z2 04 6 4 work tb_fir fast 0
+Z3 =1-52540093200d-5daea891-17ef7-65fa
+Z4 o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.2g
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+T_opt1
+Z7 V1Dio[19IKUFCnSlGVBdBX1
+R2
+Z8 =1-52540093200d-5daea8d3-b1dbb-711d
+Z9 o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.2g -sdftyp /tb_fir/UUT=../netlist/myfir.sdf -suppress 1948
+Z10 n@_opt1
+R6
+Eadd_mult
+Z11 w1571029266
+Z12 DPx4 work 5 param 0 22 `nB1?7gKm<G^cEc6d]U7H2
+Z13 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z15 d/home/lp19.26/Desktop/ISA_HW1/fir_structural/sim
+Z16 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/add_mult.vhd
+Z17 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/add_mult.vhd
+l0
+L7
+Z18 V:5_O6?m>WE2B=eWPQMj:L3
+Z19 OL;C;6.5c;42
+32
+Z20 o-work work -2002 -explicit
+Z21 tExplicit 1
+Z22 !s100 c^gjTh4GnNIR65]T3PEX32
+Abehavior
+R12
+R13
+R14
+Z23 DEx4 work 8 add_mult 0 22 :5_O6?m>WE2B=eWPQMj:L3
+l43
+L19
+Z24 VM66P3aaZTim0;c9HV=4hl2
+R19
+32
+Z25 Mx3 4 ieee 14 std_logic_1164
+Z26 Mx2 4 ieee 11 numeric_std
+Z27 Mx1 4 work 5 param
+R20
+R21
+Z28 !s100 k9`nf09ce<IX]0H?@`Me03
+Eadder
+Z29 w1571029262
+R13
+R14
+R15
+Z30 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/adder.vhd
+Z31 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/adder.vhd
+l0
+L5
+Z32 VhhCYdmj^JHI]^OF5;:Ol50
+R19
+32
+R20
+R21
+Z33 !s100 X`PF4dLH4;0z<QF[P?6JC0
+Abehavior
+R13
+R14
+Z34 DEx4 work 5 adder 0 22 hhCYdmj^JHI]^OF5;:Ol50
+l17
+L15
+Z35 V4a6G<30@6YdNX3XS?82U<2
+R19
+32
+Z36 Mx2 4 ieee 14 std_logic_1164
+Z37 Mx1 4 ieee 11 numeric_std
+R20
+R21
+Z38 !s100 `?nS6U<f?3=fGX22YkCo33
+Eclk_gen
+Z39 w1571096846
+Z40 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z41 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z42 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R15
+Z43 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/clk_gen.vhd
+Z44 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/clk_gen.vhd
+l0
+L6
+Z45 Vd5g0W;<;LIGekK2n^ImmS1
+R19
+R20
+R21
+Z46 !s100 E>bm2@VV?98=]E?]lC]HR3
+Abeh
+R40
+R41
+R42
+DEx53 /home/lp19.26/Desktop/ISA_HW1/fir_structural/sim/work 7 clk_gen 0 22 d5g0W;<;LIGekK2n^ImmS1
+32
+Mx3 17 __model_tech/ieee 14 std_logic_1164
+Mx2 17 __model_tech/ieee 15 std_logic_arith
+Mx1 17 __model_tech/ieee 18 std_logic_unsigned
+l19
+L13
+Z47 VCHI9m4kOXVR`f6LPCR_=53
+R19
+R20
+R21
+Z48 !s100 JM3UZCB<6<<YghIJ?gOAL0
+Edata_maker
+Z49 w1571345952
+Z50 DPx16 __model_tech/std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z51 DPx17 __model_tech/ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
+R40
+R41
+R42
+32
+R15
+Z52 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/data_maker_new.vhd
+Z53 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/data_maker_new.vhd
+l0
+L10
+Z54 V]dhe?^UPD=NfhWW63;So11
+R19
+R20
+R21
+Z55 !s100 la9AG]Y_g;kbWQLEKe:fX1
+Abeh
+R50
+R51
+R40
+R41
+R42
+DEx53 /home/lp19.26/Desktop/ISA_HW1/fir_structural/sim/work 10 data_maker 0 22 ]dhe?^UPD=NfhWW63;So11
+32
+Z56 Mx5 17 __model_tech/ieee 14 std_logic_1164
+Z57 Mx4 17 __model_tech/ieee 15 std_logic_arith
+Z58 Mx3 17 __model_tech/ieee 18 std_logic_unsigned
+Z59 Mx2 17 __model_tech/ieee 16 std_logic_textio
+Z60 Mx1 16 __model_tech/std 6 textio
+l37
+L30
+Z61 VSbk5XMd8cUGYc6gle2dLG1
+R19
+R20
+R21
+Z62 !s100 i4T4Za2LEg0S`=7;E@F6S3
+Edata_sink
+Z63 w1571096848
+R50
+R51
+R40
+R41
+R42
+32
+R15
+Z64 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/data_sink.vhd
+Z65 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/data_sink.vhd
+l0
+L10
+Z66 VKH@KgR597B<9;z0cISTJ?3
+R19
+R20
+R21
+Z67 !s100 kL0fZbb?GjzabFMX5:VlR0
+Abeh
+R50
+R51
+R40
+R41
+R42
+DEx53 /home/lp19.26/Desktop/ISA_HW1/fir_structural/sim/work 9 data_sink 0 22 KH@KgR597B<9;z0cISTJ?3
+32
+R56
+R57
+R58
+R59
+R60
+l20
+L18
+Z68 Vf5Z]?B]:3ED43a2^:Il@80
+R19
+R20
+R21
+Z69 !s100 a;zCEECW8THFULU9K51c<2
+Eff
+Z70 w1571029264
+R13
+R14
+R15
+Z71 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/ff.vhd
+Z72 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/ff.vhd
+l0
+L5
+Z73 VK_X0B<0WN@mMF`zXcNdke2
+R19
+32
+R20
+R21
+Z74 !s100 gGR3PT?KGQgIHmg]IIg5B3
+Abehavior
+R13
+R14
+Z75 DEx4 work 2 ff 0 22 K_X0B<0WN@mMF`zXcNdke2
+l18
+L17
+Z76 VnQT4F11zzF1?L3O9Y<KV`1
+R19
+32
+R36
+R37
+R20
+R21
+Z77 !s100 <2WBVBiGhD5zYLojB9R7]2
+Efir_filter
+Z78 w1571127988
+R12
+R13
+R14
+R15
+Z79 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/fir_filter.vhd
+Z80 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/fir_filter.vhd
+l0
+L7
+Z81 ViIM933<m4dM5U<6W4JYPm3
+R19
+32
+R20
+R21
+Z82 !s100 =4ZOgW3N5oBC[do6hWQK;2
+Abeh
+R12
+R13
+R14
+Z83 DEx4 work 10 fir_filter 0 22 iIM933<m4dM5U<6W4JYPm3
+l108
+L22
+Z84 VJ@54_=Xk;Yf`Y6J@gPHJW2
+R19
+32
+R25
+R26
+R27
+R20
+R21
+Z85 !s100 zRXCHIBFHJ8]o`i<VaNc[2
+Emult
+Z86 w1571029268
+R13
+R14
+R15
+Z87 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/mult.vhd
+Z88 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/mult.vhd
+l0
+L5
+Z89 V2ah1<hhfWJ=hi?KgZhkc`0
+R19
+32
+R20
+R21
+Z90 !s100 8JOWkA?Gm_:eEe9Llcglm2
+Abeh
+R13
+R14
+Z91 DEx4 work 4 mult 0 22 2ah1<hhfWJ=hi?KgZhkc`0
+l19
+L15
+Z92 VzAo8KA3]WhiV;eO2GBH>R0
+R19
+32
+R36
+R37
+R20
+R21
+Z93 !s100 92PPFFKfQ?mTboW>Ljb0O0
+vmyfir
+Z94 IRFH]:RRThhz>PECceGWkV3
+Z95 Ve4cBYz<gz6YV3XnI25h@Q1
+R15
+Z96 w1571727110
+Z97 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/netlist/myfir.v
+Z98 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/netlist/myfir.v
+L0 2
+Z99 OL;L;6.5c;42
+r1
+31
+Z100 !s102 -nocovercells
+Z101 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z102 !s100 3X1068@4QRoXj02K]C4jg1
+!s85 0
+Pparam
+R13
+R14
+Z103 w1571344672
+R15
+Z104 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/param.vhd
+Z105 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/param.vhd
+l0
+L5
+Z106 V`nB1?7gKm<G^cEc6d]U7H2
+R19
+32
+R36
+R37
+R20
+R21
+Z107 !s100 b`EZGXeYdTgolYT:OnV0z0
+Ereg_chain
+Z108 w1571029274
+R12
+R13
+R14
+R15
+Z109 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_chain.vhd
+Z110 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_chain.vhd
+l0
+L7
+Z111 VoId7SDK?8jCckG4igD]el2
+R19
+32
+R20
+R21
+Z112 !s100 8LD?HPW5k69BD_DR3`=`>2
+Abeh
+R12
+R13
+R14
+Z113 DEx4 work 9 reg_chain 0 22 oId7SDK?8jCckG4igD]el2
+l41
+L22
+Z114 VjhDkEReAfT2W5OgV`R__Q1
+R19
+32
+R25
+R26
+R27
+R20
+R21
+Z115 !s100 jMgY=:W5;4MYkhd:;3_LX0
+Ereg_coeff
+R108
+R12
+R13
+R14
+R15
+Z116 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_coeff.vhd
+Z117 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_coeff.vhd
+l0
+L7
+Z118 V[BX2n;KlGZbbUhnG0:Z6g2
+R19
+32
+R20
+R21
+Z119 !s100 VVg6KEF8MLW9;S`S]4kiO0
+Abeh
+R12
+R13
+R14
+Z120 DEx4 work 9 reg_coeff 0 22 [BX2n;KlGZbbUhnG0:Z6g2
+l24
+L20
+Z121 V719VUAo23G^XR1^f_X[H:0
+R19
+32
+R25
+R26
+R27
+R20
+R21
+Z122 !s100 01RcEFY8in9maM<IEMX6P1
+Ereg_n
+Z123 w1571029278
+R13
+R14
+R15
+Z124 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_n.vhd
+Z125 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_n.vhd
+l0
+L5
+Z126 V8ZPQc:AVe1o3N`>L]@_4E0
+R19
+32
+R20
+R21
+Z127 !s100 PaJeF42036;oYR@<oe^7n2
+Abeh
+R13
+R14
+Z128 DEx4 work 5 reg_n 0 22 8ZPQc:AVe1o3N`>L]@_4E0
+l22
+L20
+Z129 Vf7KRVM;k5XY2kWaklXb]d0
+R19
+32
+R36
+R37
+R20
+R21
+Z130 !s100 cMi=9fn1O2SXIIK]JeA;?2
+vtb_fir
+Z131 IH=NEg;TAeWEGf7k;YdWiD3
+Z132 Vn4ToFGQLaei@:>cm_n>5j1
+R15
+Z133 w1571346718
+Z134 8/home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/tb_fir.v
+Z135 F/home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/tb_fir.v
+L0 3
+R99
+r1
+31
+R101
+R100
+Z136 !s100 mAKG=1nH>Seic9T:X?zZM1
+!s85 0

@@ -1,0 +1,123 @@
+/home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_n.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_n.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity reg_n
+-- Compiling architecture beh of reg_n
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/tb_fir.v {1 {vlog -work work -vopt -nocovercells /home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/tb_fir.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module tb_fir
+
+Top level modules:
+	tb_fir
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/data_maker_new.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/data_maker_new.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Compiling entity data_maker
+-- Compiling architecture beh of data_maker
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/param.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/param.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling package param
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/clk_gen.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/clk_gen.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity clk_gen
+-- Compiling architecture beh of clk_gen
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/add_mult.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/add_mult.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package param
+-- Compiling entity add_mult
+-- Compiling architecture behavior of add_mult
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/mult.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/mult.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity mult
+-- Compiling architecture beh of mult
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/data_sink.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/tb/data_sink.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Compiling entity data_sink
+-- Compiling architecture beh of data_sink
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/ff.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/ff.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity ff
+-- Compiling architecture behavior of ff
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/fir_filter.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/fir_filter.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package param
+-- Compiling entity fir_filter
+-- Compiling architecture beh of fir_filter
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/myfir.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/myfir.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package param
+-- Compiling entity myfir
+-- Compiling architecture beh of myfir
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_coeff.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_coeff.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package param
+-- Compiling entity reg_coeff
+-- Compiling architecture beh of reg_coeff
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_chain.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/reg_chain.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package param
+-- Compiling entity reg_chain
+-- Compiling architecture beh of reg_chain
+
+} {} {}} /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/adder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ISA_HW1/fir_structural/src/adder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity adder
+-- Compiling architecture behavior of adder
+
+} {} {}}

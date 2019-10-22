@@ -1,0 +1,197 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fir_filter
+Version: F-2011.09-SP3
+Date   : Tue Oct 15 09:38:38 2019
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: reg_samples/q_reg[0]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: reg_out/q_reg[13]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fir_filter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  reg_samples/q_reg[0]/CK (DFFR_X1)                       0.00       0.00 r
+  reg_samples/q_reg[0]/QN (DFFR_X1)                       0.07       0.07 f
+  reg_samples/U32/ZN (INV_X2)                             0.06       0.12 r
+  reg_samples/q[0] (reg_n_n14_0)                          0.00       0.12 r
+  first_coeff/a[0] (mult_n14_0)                           0.00       0.12 r
+  first_coeff/mult_21/A[0] (mult_n14_0_DW02_mult_0)       0.00       0.12 r
+  first_coeff/mult_21/U557/ZN (NAND2_X1)                  0.05       0.17 f
+  first_coeff/mult_21/U449/Z (XOR2_X1)                    0.09       0.26 f
+  first_coeff/mult_21/U490/ZN (NAND2_X1)                  0.04       0.30 r
+  first_coeff/mult_21/U577/ZN (OAI21_X1)                  0.04       0.33 f
+  first_coeff/mult_21/U452/ZN (XNOR2_X1)                  0.07       0.40 f
+  first_coeff/mult_21/U185/ZN (NAND2_X1)                  0.03       0.44 r
+  first_coeff/mult_21/U187/ZN (NAND3_X1)                  0.04       0.48 f
+  first_coeff/mult_21/S2_4_8/S (FA_X1)                    0.15       0.62 r
+  first_coeff/mult_21/S2_5_7/S (FA_X1)                    0.11       0.74 f
+  first_coeff/mult_21/S2_6_6/S (FA_X1)                    0.14       0.88 r
+  first_coeff/mult_21/U75/ZN (XNOR2_X1)                   0.06       0.94 r
+  first_coeff/mult_21/U73/ZN (XNOR2_X1)                   0.05       0.99 f
+  first_coeff/mult_21/U540/ZN (OAI211_X1)                 0.05       1.05 r
+  first_coeff/mult_21/U535/ZN (INV_X1)                    0.02       1.07 f
+  first_coeff/mult_21/U441/ZN (AOI21_X1)                  0.07       1.14 r
+  first_coeff/mult_21/U534/ZN (INV_X1)                    0.03       1.17 f
+  first_coeff/mult_21/U569/ZN (OAI211_X1)                 0.05       1.22 r
+  first_coeff/mult_21/U533/ZN (OAI21_X1)                  0.05       1.27 f
+  first_coeff/mult_21/U218/Z (XOR2_X1)                    0.08       1.34 f
+  first_coeff/mult_21/U217/ZN (XNOR2_X1)                  0.07       1.41 f
+  first_coeff/mult_21/U233/ZN (OAI21_X1)                  0.07       1.49 r
+  first_coeff/mult_21/U58/ZN (XNOR2_X1)                   0.07       1.56 r
+  first_coeff/mult_21/U57/ZN (XNOR2_X1)                   0.07       1.63 r
+  first_coeff/mult_21/U344/ZN (XNOR2_X1)                  0.07       1.70 r
+  first_coeff/mult_21/U342/ZN (XNOR2_X1)                  0.07       1.77 r
+  first_coeff/mult_21/U213/ZN (XNOR2_X1)                  0.07       1.84 r
+  first_coeff/mult_21/FS_1/A[13] (mult_n14_0_DW01_add_0)
+                                                          0.00       1.84 r
+  first_coeff/mult_21/FS_1/U72/ZN (NAND2_X1)              0.04       1.88 f
+  first_coeff/mult_21/FS_1/U6/ZN (AND2_X1)                0.04       1.92 f
+  first_coeff/mult_21/FS_1/U5/ZN (XNOR2_X1)               0.06       1.98 f
+  first_coeff/mult_21/FS_1/SUM[13] (mult_n14_0_DW01_add_0)
+                                                          0.00       1.98 f
+  first_coeff/mult_21/PRODUCT[15] (mult_n14_0_DW02_mult_0)
+                                                          0.00       1.98 f
+  first_coeff/res[2] (mult_n14_0)                         0.00       1.98 f
+  adder_mult_0/d_sum[2] (add_mult_n14_0)                  0.00       1.98 f
+  adder_mult_0/addition/b[2] (adder_n14_0)                0.00       1.98 f
+  adder_mult_0/addition/add_19/B[2] (adder_n14_0_DW01_add_0)
+                                                          0.00       1.98 f
+  adder_mult_0/addition/add_19/U62/ZN (OAI21_X1)          0.04       2.02 r
+  adder_mult_0/addition/add_19/U58/ZN (OAI21_X1)          0.04       2.05 f
+  adder_mult_0/addition/add_19/U55/ZN (OR2_X1)            0.06       2.11 f
+  adder_mult_0/addition/add_19/U54/ZN (AOI22_X1)          0.05       2.16 r
+  adder_mult_0/addition/add_19/U78/ZN (INV_X1)            0.03       2.19 f
+  adder_mult_0/addition/add_19/U6/ZN (XNOR2_X1)           0.06       2.26 f
+  adder_mult_0/addition/add_19/SUM[4] (adder_n14_0_DW01_add_0)
+                                                          0.00       2.26 f
+  adder_mult_0/addition/res[4] (adder_n14_0)              0.00       2.26 f
+  adder_mult_0/res[4] (add_mult_n14_0)                    0.00       2.26 f
+  adder_mult_1/d_sum[4] (add_mult_n14_9)                  0.00       2.26 f
+  adder_mult_1/addition/b[4] (adder_n14_9)                0.00       2.26 f
+  adder_mult_1/addition/add_19/B[4] (adder_n14_9_DW01_add_0)
+                                                          0.00       2.26 f
+  adder_mult_1/addition/add_19/U6/ZN (XNOR2_X1)           0.07       2.32 f
+  adder_mult_1/addition/add_19/U9/ZN (OAI22_X1)           0.06       2.39 r
+  adder_mult_1/addition/add_19/U1_5/S (FA_X1)             0.12       2.51 f
+  adder_mult_1/addition/add_19/SUM[5] (adder_n14_9_DW01_add_0)
+                                                          0.00       2.51 f
+  adder_mult_1/addition/res[5] (adder_n14_9)              0.00       2.51 f
+  adder_mult_1/res[5] (add_mult_n14_9)                    0.00       2.51 f
+  adder_mult_2/d_sum[5] (add_mult_n14_8)                  0.00       2.51 f
+  adder_mult_2/addition/b[5] (adder_n14_8)                0.00       2.51 f
+  adder_mult_2/addition/add_19/B[5] (adder_n14_8_DW01_add_0)
+                                                          0.00       2.51 f
+  adder_mult_2/addition/add_19/U1_5/CO (FA_X1)            0.10       2.61 f
+  adder_mult_2/addition/add_19/U1_6/CO (FA_X1)            0.09       2.71 f
+  adder_mult_2/addition/add_19/U1_7/CO (FA_X1)            0.09       2.80 f
+  adder_mult_2/addition/add_19/U1_8/CO (FA_X1)            0.09       2.89 f
+  adder_mult_2/addition/add_19/U1_9/CO (FA_X1)            0.10       3.00 f
+  adder_mult_2/addition/add_19/U1_10/S (FA_X1)            0.14       3.13 r
+  adder_mult_2/addition/add_19/SUM[10] (adder_n14_8_DW01_add_0)
+                                                          0.00       3.13 r
+  adder_mult_2/addition/res[10] (adder_n14_8)             0.00       3.13 r
+  adder_mult_2/res[10] (add_mult_n14_8)                   0.00       3.13 r
+  adder_mult_3/d_sum[10] (add_mult_n14_7)                 0.00       3.13 r
+  adder_mult_3/addition/b[10] (adder_n14_7)               0.00       3.13 r
+  adder_mult_3/addition/add_19/B[10] (adder_n14_7_DW01_add_0)
+                                                          0.00       3.13 r
+  adder_mult_3/addition/add_19/U1_10/S (FA_X1)            0.12       3.25 f
+  adder_mult_3/addition/add_19/SUM[10] (adder_n14_7_DW01_add_0)
+                                                          0.00       3.25 f
+  adder_mult_3/addition/res[10] (adder_n14_7)             0.00       3.25 f
+  adder_mult_3/res[10] (add_mult_n14_7)                   0.00       3.25 f
+  adder_mult_4/d_sum[10] (add_mult_n14_6)                 0.00       3.25 f
+  adder_mult_4/addition/b[10] (adder_n14_6)               0.00       3.25 f
+  adder_mult_4/addition/add_19/B[10] (adder_n14_6_DW01_add_0)
+                                                          0.00       3.25 f
+  adder_mult_4/addition/add_19/U1_10/CO (FA_X1)           0.10       3.36 f
+  adder_mult_4/addition/add_19/U1_11/S (FA_X1)            0.14       3.49 r
+  adder_mult_4/addition/add_19/SUM[11] (adder_n14_6_DW01_add_0)
+                                                          0.00       3.49 r
+  adder_mult_4/addition/res[11] (adder_n14_6)             0.00       3.49 r
+  adder_mult_4/res[11] (add_mult_n14_6)                   0.00       3.49 r
+  adder_mult_5/d_sum[11] (add_mult_n14_5)                 0.00       3.49 r
+  adder_mult_5/addition/b[11] (adder_n14_5)               0.00       3.49 r
+  adder_mult_5/addition/add_19/B[11] (adder_n14_5_DW01_add_0)
+                                                          0.00       3.49 r
+  adder_mult_5/addition/add_19/U1_11/S (FA_X1)            0.12       3.61 f
+  adder_mult_5/addition/add_19/SUM[11] (adder_n14_5_DW01_add_0)
+                                                          0.00       3.61 f
+  adder_mult_5/addition/res[11] (adder_n14_5)             0.00       3.61 f
+  adder_mult_5/res[11] (add_mult_n14_5)                   0.00       3.61 f
+  adder_mult_6/d_sum[11] (add_mult_n14_4)                 0.00       3.61 f
+  adder_mult_6/addition/b[11] (adder_n14_4)               0.00       3.61 f
+  adder_mult_6/addition/add_19/B[11] (adder_n14_4_DW01_add_0)
+                                                          0.00       3.61 f
+  adder_mult_6/addition/add_19/U1_11/CO (FA_X1)           0.10       3.71 f
+  adder_mult_6/addition/add_19/U1_12/S (FA_X1)            0.14       3.85 r
+  adder_mult_6/addition/add_19/SUM[12] (adder_n14_4_DW01_add_0)
+                                                          0.00       3.85 r
+  adder_mult_6/addition/res[12] (adder_n14_4)             0.00       3.85 r
+  adder_mult_6/res[12] (add_mult_n14_4)                   0.00       3.85 r
+  adder_mult_7/d_sum[12] (add_mult_n14_3)                 0.00       3.85 r
+  adder_mult_7/addition/b[12] (adder_n14_3)               0.00       3.85 r
+  adder_mult_7/addition/add_19/B[12] (adder_n14_3_DW01_add_0)
+                                                          0.00       3.85 r
+  adder_mult_7/addition/add_19/U1_12/S (FA_X1)            0.12       3.97 f
+  adder_mult_7/addition/add_19/SUM[12] (adder_n14_3_DW01_add_0)
+                                                          0.00       3.97 f
+  adder_mult_7/addition/res[12] (adder_n14_3)             0.00       3.97 f
+  adder_mult_7/res[12] (add_mult_n14_3)                   0.00       3.97 f
+  adder_mult_8/d_sum[12] (add_mult_n14_2)                 0.00       3.97 f
+  adder_mult_8/addition/b[12] (adder_n14_2)               0.00       3.97 f
+  adder_mult_8/addition/add_19/B[12] (adder_n14_2_DW01_add_0)
+                                                          0.00       3.97 f
+  adder_mult_8/addition/add_19/U1_12/CO (FA_X1)           0.10       4.07 f
+  adder_mult_8/addition/add_19/U1_13/S (FA_X1)            0.13       4.21 r
+  adder_mult_8/addition/add_19/SUM[13] (adder_n14_2_DW01_add_0)
+                                                          0.00       4.21 r
+  adder_mult_8/addition/res[13] (adder_n14_2)             0.00       4.21 r
+  adder_mult_8/res[13] (add_mult_n14_2)                   0.00       4.21 r
+  adder_mult_9/d_sum[13] (add_mult_n14_1)                 0.00       4.21 r
+  adder_mult_9/addition/b[13] (adder_n14_1)               0.00       4.21 r
+  adder_mult_9/addition/add_19/B[13] (adder_n14_1_DW01_add_0)
+                                                          0.00       4.21 r
+  adder_mult_9/addition/add_19/U10/ZN (XNOR2_X1)          0.06       4.26 r
+  adder_mult_9/addition/add_19/U15/Z (XOR2_X1)            0.07       4.33 r
+  adder_mult_9/addition/add_19/SUM[13] (adder_n14_1_DW01_add_0)
+                                                          0.00       4.33 r
+  adder_mult_9/addition/res[13] (adder_n14_1)             0.00       4.33 r
+  adder_mult_9/res[13] (add_mult_n14_1)                   0.00       4.33 r
+  reg_out/d[13] (reg_n_n14_11)                            0.00       4.33 r
+  reg_out/U34/ZN (NAND2_X1)                               0.03       4.36 f
+  reg_out/U4/ZN (NAND2_X1)                                0.03       4.39 r
+  reg_out/q_reg[13]/D (DFFR_X1)                           0.01       4.40 r
+  data arrival time                                                  4.40
+
+  clock MY_CLK (rise edge)                                4.50       4.50
+  clock network delay (ideal)                             0.00       4.50
+  clock uncertainty                                      -0.07       4.43
+  reg_out/q_reg[13]/CK (DFFR_X1)                          0.00       4.43 r
+  library setup time                                     -0.03       4.40
+  data required time                                                 4.40
+  --------------------------------------------------------------------------
+  data required time                                                 4.40
+  data arrival time                                                 -4.40
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
