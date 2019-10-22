@@ -1,9 +1,9 @@
 ###################################################################
 
-# Created by write_sdc on Tue Oct 22 08:51:50 2019
+# Created by write_sdc on Tue Oct 22 17:48:48 2019
 
 ###################################################################
-set sdc_version 1.9
+set sdc_version 2.1
 
 set_units -time ns -resistance MOhm -capacitance fF -voltage V -current mA
 set_load -pin_load 3.40189 [get_ports {dout[13]}]

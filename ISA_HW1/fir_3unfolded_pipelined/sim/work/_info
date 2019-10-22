@@ -1,588 +1,513 @@
 m255
-K3
 13
 cModel Technology
-Z0 d/home/lp19.26/Desktop/ISA_HW1/fir_structural/sim
+d/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/sim
 T_opt
-VWQEhhDnIPTMXQRD:FC?DB2
-Z1 04 6 4 work tb_fir fast 0
-Z2 =1-52540093200d-5da8ea9e-7c9e1-5759
-Z3 o-quiet -auto_acc_if_foreign -work work
-Z4 n@_opt
-Z5 OL;O;6.5c;42
+V83<i1l7<I<h:e:53aeZon1
+06 6 4 ./work tb_fir fast 0
+o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.2g -sdftyp /tb_fir/UUT=../netlist/myfir.sdf -suppress 1948
+tExplicit 1
+OE;O;6.2g;35
 Eadd_mult1
-Z6 w1571312590
-Z7 DPx4 work 5 param 0 22 B1^0AQkzfl`X:YT9OYA211
-Z8 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
-Z9 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
-Z10 d/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/sim
-Z11 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult1.vhd
-Z12 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult1.vhd
+w1571739554
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult1.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult1.vhd
 l0
 L7
-Z13 VlQ2`VCV_Sb?lLgzEQT`cK1
-Z14 OL;C;6.5c;42
+VlQ2`VCV_Sb?lLgzEQT`cK1
+OE;C;6.2g;35
 32
-Z15 o-work work -2002 -explicit
-Z16 tExplicit 1
-Z17 !s100 VXgDdUzCPecgTVJ7A9k8D3
+o-work work -2002 -explicit
+tExplicit 1
 Abehavior
-R7
-R8
-R9
-Z18 DEx4 work 9 add_mult1 0 22 lQ2`VCV_Sb?lLgzEQT`cK1
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work add_mult1 lQ2`VCV_Sb?lLgzEQT`cK1
 l67
 L24
-Z19 Vn]83lH`iDMF8<KlEWVXHN0
-R14
+Vn]83lH`iDMF8<KlEWVXHN0
+OE;C;6.2g;35
 32
-Z20 Mx3 4 ieee 14 std_logic_1164
-Z21 Mx2 4 ieee 11 numeric_std
-Z22 Mx1 4 work 5 param
-R15
-R16
-Z23 !s100 nc`KH;[<QVJz<;M<=EWE^3
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param
+o-work work -2002 -explicit
+tExplicit 1
 Eadd_mult2
-R6
-R7
-R8
-R9
-R10
-Z24 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult2.vhd
-Z25 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult2.vhd
+w1571739554
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult2.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult2.vhd
 l0
 L7
-Z26 VoAfJ1ZdgomU[<=P:9m@L`3
-R14
+VoAfJ1ZdgomU[<=P:9m@L`3
+OE;C;6.2g;35
 32
-R15
-R16
-Z27 !s100 9[_Db<nJ8<=]I[ef?g<kg1
+o-work work -2002 -explicit
+tExplicit 1
 Abehavior
-R7
-R8
-R9
-Z28 DEx4 work 9 add_mult2 0 22 oAfJ1ZdgomU[<=P:9m@L`3
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work add_mult2 oAfJ1ZdgomU[<=P:9m@L`3
 l70
 L25
-Z29 V9o;4ZdEIi7[R70Jj>JaoW2
-R14
+V9o;4ZdEIi7[R70Jj>JaoW2
+OE;C;6.2g;35
 32
-R20
-R21
-R22
-R15
-R16
-Z30 !s100 Cb4eV4O@d5lb^@X?:=ST53
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param
+o-work work -2002 -explicit
+tExplicit 1
 Eadd_mult3
-Z31 w1571312592
-R7
-R8
-R9
-R10
-Z32 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult3.vhd
-Z33 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult3.vhd
+w1571739554
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult3.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult3.vhd
 l0
 L7
-Z34 VQIG3jo^DoeUgUSLdfAFf51
-R14
+VQIG3jo^DoeUgUSLdfAFf51
+OE;C;6.2g;35
 32
-R15
-R16
-Z35 !s100 KTQSQaH;0>BzT81NZ1^fj1
+o-work work -2002 -explicit
+tExplicit 1
 Abehavior
-R7
-R8
-R9
-Z36 DEx4 work 9 add_mult3 0 22 QIG3jo^DoeUgUSLdfAFf51
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work add_mult3 QIG3jo^DoeUgUSLdfAFf51
 l73
 L26
-Z37 VPieza5je]HEF``f<D:_in3
-R14
+VPieza5je]HEF``f<D:_in3
+OE;C;6.2g;35
 32
-R20
-R21
-R22
-R15
-R16
-Z38 !s100 A@lnFgYSgO:KMLb6CoJ1=1
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param
+o-work work -2002 -explicit
+tExplicit 1
 Eadd_mult4
-R6
-R7
-R8
-R9
-R10
-Z39 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult4.vhd
-Z40 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult4.vhd
+w1571739554
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult4.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult4.vhd
 l0
 L7
-Z41 Vd;_MDYbQ2fZ5S0VIOH6k?3
-R14
+Vd;_MDYbQ2fZ5S0VIOH6k?3
+OE;C;6.2g;35
 32
-R15
-R16
-Z42 !s100 >DS[oGH^hc>:UF<3=j5a?3
+o-work work -2002 -explicit
+tExplicit 1
 Abehavior
-R7
-R8
-R9
-Z43 DEx4 work 9 add_mult4 0 22 d;_MDYbQ2fZ5S0VIOH6k?3
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work add_mult4 d;_MDYbQ2fZ5S0VIOH6k?3
 l76
 L27
-Z44 VEj[:K5@CW18Jf4IYa1IPE2
-R14
+VEj[:K5@CW18Jf4IYa1IPE2
+OE;C;6.2g;35
 32
-R20
-R21
-R22
-R15
-R16
-Z45 !s100 Ub9fZP9RodzNTBjfh<Lj30
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param
+o-work work -2002 -explicit
+tExplicit 1
 Eadd_mult5
-R31
-R7
-R8
-R9
-R10
-Z46 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult5.vhd
-Z47 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult5.vhd
+w1571739554
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult5.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/add_mult5.vhd
 l0
 L7
-Z48 V6Zb>?bdRG804n<DbHH^HN2
-R14
+V6Zb>?bdRG804n<DbHH^HN2
+OE;C;6.2g;35
 32
-R15
-R16
-Z49 !s100 IC^EEZQR`;3JaZBICPoOh0
+o-work work -2002 -explicit
+tExplicit 1
 Abehavior
-R7
-R8
-R9
-Z50 DEx4 work 9 add_mult5 0 22 6Zb>?bdRG804n<DbHH^HN2
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work add_mult5 6Zb>?bdRG804n<DbHH^HN2
 l79
 L28
-Z51 VdcoLG4ZlK?k0z<Y=OTZEX2
-R14
+VdcoLG4ZlK?k0z<Y=OTZEX2
+OE;C;6.2g;35
 32
-R20
-R21
-R22
-R15
-R16
-Z52 !s100 7AFd>[l9;><j_EO8oiE3^3
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param
+o-work work -2002 -explicit
+tExplicit 1
 Eadder
-R6
-R8
-R9
-R10
-Z53 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/adder.vhd
-Z54 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/adder.vhd
+w1571739554
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/adder.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/adder.vhd
 l0
 L5
-Z55 VhhCYdmj^JHI]^OF5;:Ol50
-R14
+VhhCYdmj^JHI]^OF5;:Ol50
+OE;C;6.2g;35
 32
-R15
-R16
-Z56 !s100 X`PF4dLH4;0z<QF[P?6JC0
+o-work work -2002 -explicit
+tExplicit 1
 Abehavior
-R8
-R9
-Z57 DEx4 work 5 adder 0 22 hhCYdmj^JHI]^OF5;:Ol50
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work adder hhCYdmj^JHI]^OF5;:Ol50
 l17
 L15
-Z58 V4a6G<30@6YdNX3XS?82U<2
-R14
+V4a6G<30@6YdNX3XS?82U<2
+OE;C;6.2g;35
 32
-Z59 Mx2 4 ieee 14 std_logic_1164
-Z60 Mx1 4 ieee 11 numeric_std
-R15
-R16
-Z61 !s100 `?nS6U<f?3=fGX22YkCo33
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+o-work work -2002 -explicit
+tExplicit 1
 Eclk_gen
-Z62 w1571096846
-Z63 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
-Z64 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
-R9
-R10
-Z65 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/clk_gen.vhd
-Z66 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/clk_gen.vhd
+w1571739555
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/clk_gen.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/clk_gen.vhd
 l0
 L6
-Z67 Vd5g0W;<;LIGekK2n^ImmS1
-R14
+Vd5g0W;<;LIGekK2n^ImmS1
+OE;C;6.2g;35
 32
-R15
-R16
-Z68 !s100 E>bm2@VV?98=]E?]lC]HR3
+o-work work -2002 -explicit
+tExplicit 1
 Abeh
-R63
-R64
-R9
-Z69 DEx4 work 7 clk_gen 0 22 d5g0W;<;LIGekK2n^ImmS1
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work clk_gen d5g0W;<;LIGekK2n^ImmS1
 l19
 L13
-Z70 VCHI9m4kOXVR`f6LPCR_=53
-R14
+VCHI9m4kOXVR`f6LPCR_=53
+OE;C;6.2g;35
 32
-R20
-Z71 Mx2 4 ieee 15 std_logic_arith
-Z72 Mx1 4 ieee 18 std_logic_unsigned
-R15
-R16
-Z73 !s100 JM3UZCB<6<<YghIJ?gOAL0
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-work work -2002 -explicit
+tExplicit 1
 Edata_maker
-Z74 w1571350778
-Z75 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
-Z76 DPx4 ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
-R63
-R64
-R9
-R10
-Z77 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/data_maker_new.vhd
-Z78 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/data_maker_new.vhd
+w1571739555
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/data_maker_new.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/data_maker_new.vhd
 l0
 L10
-Z79 VbZnzER@UDKfJMiJ^]>;VR3
-R14
+VbZnzER@UDKfJMiJ^]>;VR3
+OE;C;6.2g;35
 32
-R15
-R16
-Z80 !s100 oLRjDKMd3nSf6Q>W?XID83
+o-work work -2002 -explicit
+tExplicit 1
 Abeh
-R75
-R76
-R63
-R64
-R9
-Z81 DEx4 work 10 data_maker 0 22 bZnzER@UDKfJMiJ^]>;VR3
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work data_maker bZnzER@UDKfJMiJ^]>;VR3
 l39
 L32
-Z82 VNLUPcW?k^@73gi?TUW7oH2
-R14
+VdY0blX1ZAeb7Wg408RnS^2
+OE;C;6.2g;35
 32
-Z83 Mx5 4 ieee 14 std_logic_1164
-Z84 Mx4 4 ieee 15 std_logic_arith
-Z85 Mx3 4 ieee 18 std_logic_unsigned
-Z86 Mx2 4 ieee 16 std_logic_textio
-Z87 Mx1 3 std 6 textio
-R15
-R16
-Z88 !s100 9nU4m>YEieoaKP3Dl=IWm2
+M5 ieee std_logic_1164
+M4 ieee std_logic_arith
+M3 ieee std_logic_unsigned
+M2 ieee std_logic_textio
+M1 std textio
+o-work work -2002 -explicit
+tExplicit 1
 Edata_sink
-Z89 w1571347628
-R75
-R76
-R63
-R64
-R9
-R10
-Z90 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/data_sink.vhd
-Z91 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/data_sink.vhd
+w1571739555
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/data_sink.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/data_sink.vhd
 l0
 L10
-Z92 V[2MB5e52EAbVJi;2LHFRc2
-R14
+V[2MB5e52EAbVJi;2LHFRc2
+OE;C;6.2g;35
 32
-R15
-R16
-Z93 !s100 j`<U>zc4;3_RTiEi7P[?U2
+o-work work -2002 -explicit
+tExplicit 1
 Abeh
-R75
-R76
-R63
-R64
-R9
-Z94 DEx4 work 9 data_sink 0 22 [2MB5e52EAbVJi;2LHFRc2
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work data_sink [2MB5e52EAbVJi;2LHFRc2
 l23
 L21
-Z95 VGNg1CAiBTjG5^a]>lUlOc3
-R14
+VGNg1CAiBTjG5^a]>lUlOc3
+OE;C;6.2g;35
 32
-R83
-R84
-R85
-R86
-R87
-R15
-R16
-Z96 !s100 zi=SMCNHnWD7_[eo3N4B<2
+M5 ieee std_logic_1164
+M4 ieee std_logic_arith
+M3 ieee std_logic_unsigned
+M2 ieee std_logic_textio
+M1 std textio
+o-work work -2002 -explicit
+tExplicit 1
 Eff
-R31
-R8
-R9
-R10
-Z97 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/ff.vhd
-Z98 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/ff.vhd
+w1571739554
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/ff.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/ff.vhd
 l0
 L5
-Z99 VK_X0B<0WN@mMF`zXcNdke2
-R14
+VK_X0B<0WN@mMF`zXcNdke2
+OE;C;6.2g;35
 32
-R15
-R16
-Z100 !s100 gGR3PT?KGQgIHmg]IIg5B3
+o-work work -2002 -explicit
+tExplicit 1
 Abehavior
-R8
-R9
-Z101 DEx4 work 2 ff 0 22 K_X0B<0WN@mMF`zXcNdke2
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work ff K_X0B<0WN@mMF`zXcNdke2
 l18
 L17
-Z102 VnQT4F11zzF1?L3O9Y<KV`1
-R14
+VnQT4F11zzF1?L3O9Y<KV`1
+OE;C;6.2g;35
 32
-R59
-R60
-R15
-R16
-Z103 !s100 <2WBVBiGhD5zYLojB9R7]2
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+o-work work -2002 -explicit
+tExplicit 1
 Efir_block_1_2
-R31
-R7
-R8
-R9
-R10
-Z104 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_block_1_2.vhd
-Z105 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_block_1_2.vhd
+w1571739554
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_block_1_2.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_block_1_2.vhd
 l0
 L7
-Z106 V9dj_j5gPbRnlRcd<TSm>C0
-R14
+V9dj_j5gPbRnlRcd<TSm>C0
+OE;C;6.2g;35
 32
-R15
-R16
-Z107 !s100 z66nMNc4BW^OXFE;0cXFn1
+o-work work -2002 -explicit
+tExplicit 1
 Abeh
-R7
-R8
-R9
-Z108 DEx4 work 13 fir_block_1_2 0 22 9dj_j5gPbRnlRcd<TSm>C0
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work fir_block_1_2 9dj_j5gPbRnlRcd<TSm>C0
 l190
 L40
-Z109 VZN;KH6^HbTWI_WNkZN9]n2
-R14
+VZN;KH6^HbTWI_WNkZN9]n2
+OE;C;6.2g;35
 32
-R20
-R21
-R22
-R15
-R16
-Z110 !s100 RnRTNC[ae]DEP9>DNYDCj3
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param
+o-work work -2002 -explicit
+tExplicit 1
 Efir_block_3
-R31
-R7
-R8
-R9
-R10
-Z111 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_block_3.vhd
-Z112 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_block_3.vhd
+w1571739554
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_block_3.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_block_3.vhd
 l0
 L7
-Z113 VYSTglomD91a5W@[d[b=KL2
-R14
+VYSTglomD91a5W@[d[b=KL2
+OE;C;6.2g;35
 32
-R15
-R16
-Z114 !s100 OICNYE^fm6<^8ag^3N0jS0
+o-work work -2002 -explicit
+tExplicit 1
 Abeh
-R7
-R8
-R9
-Z115 DEx4 work 11 fir_block_3 0 22 YSTglomD91a5W@[d[b=KL2
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work fir_block_3 YSTglomD91a5W@[d[b=KL2
 l191
 L40
-Z116 VoNmoSMfo=]=51`KZcBcC32
-R14
+VoNmoSMfo=]=51`KZcBcC32
+OE;C;6.2g;35
 32
-R20
-R21
-R22
-R15
-R16
-Z117 !s100 2K:_133`:C^Zga5Bo0f881
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param
+o-work work -2002 -explicit
+tExplicit 1
 Efir_filter
-R31
-R7
-R8
-R9
-R10
-Z118 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_filter.vhd
-Z119 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_filter.vhd
+w1571739554
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_filter.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/fir_filter.vhd
 l0
 L7
-Z120 VikZVgjfJOoU6dMjZ21^Vg2
-R14
+VikZVgjfJOoU6dMjZ21^Vg2
+OE;C;6.2g;35
 32
-R15
-R16
-Z121 !s100 Z7]7BJ<B>KXh<@;TVTb=^2
+o-work work -2002 -explicit
+tExplicit 1
 Abeh
-R7
-R8
-R9
-Z122 DEx4 work 10 fir_filter 0 22 ikZVgjfJOoU6dMjZ21^Vg2
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work fir_filter ikZVgjfJOoU6dMjZ21^Vg2
 l123
 L22
-Z123 V3VO3bQmWXKlkUE3BR?I[b2
-R14
+V3VO3bQmWXKlkUE3BR?I[b2
+OE;C;6.2g;35
 32
-R20
-R21
-R22
-R15
-R16
-Z124 !s100 K4_ob4zOYDWbVD[;iDTWn0
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param
+o-work work -2002 -explicit
+tExplicit 1
 Emult
-R31
-R8
-R9
-R10
-Z125 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/mult.vhd
-Z126 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/mult.vhd
+w1571739554
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/mult.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/mult.vhd
 l0
 L5
-Z127 V2ah1<hhfWJ=hi?KgZhkc`0
-R14
+V2ah1<hhfWJ=hi?KgZhkc`0
+OE;C;6.2g;35
 32
-R15
-R16
-Z128 !s100 8JOWkA?Gm_:eEe9Llcglm2
+o-work work -2002 -explicit
+tExplicit 1
 Abeh
-R8
-R9
-Z129 DEx4 work 4 mult 0 22 2ah1<hhfWJ=hi?KgZhkc`0
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mult 2ah1<hhfWJ=hi?KgZhkc`0
 l19
 L15
-Z130 VzAo8KA3]WhiV;eO2GBH>R0
-R14
+VzAo8KA3]WhiV;eO2GBH>R0
+OE;C;6.2g;35
 32
-R59
-R60
-R15
-R16
-Z131 !s100 92PPFFKfQ?mTboW>Ljb0O0
-Emyfir
-Z132 w1571348230
-R7
-R8
-R9
-R10
-Z133 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/myfir.vhd
-Z134 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/myfir.vhd
-l0
-L7
-Z135 VLe6YE9C0MCgf`97ggKMei1
-R14
-32
-R15
-R16
-Z136 !s100 HQLZfDW=9[Ak]4z]Ka@a00
-Abeh
-R7
-R8
-R9
-Z137 DEx4 work 5 myfir 0 22 Le6YE9C0MCgf`97ggKMei1
-l53
-L36
-Z138 VbfAoWISV5i>;1McV7]0mc1
-R14
-32
-R20
-R21
-R22
-R15
-R16
-Z139 !s100 IR5C;A[8N8iN?9]z?BZXY3
-Pparam
-R8
-R9
-R31
-R10
-Z140 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/param.vhd
-Z141 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/param.vhd
-l0
-L5
-Z142 VB1^0AQkzfl`X:YT9OYA211
-R14
-32
-R59
-R60
-R15
-R16
-Z143 !s100 8fJVzYgL;eI0LC`[TkQ[B2
-Ereg_coeff
-Z144 w1571312594
-R7
-R8
-R9
-R10
-Z145 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/reg_coeff.vhd
-Z146 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/reg_coeff.vhd
-l0
-L7
-Z147 V[BX2n;KlGZbbUhnG0:Z6g2
-R14
-32
-R15
-R16
-Z148 !s100 VVg6KEF8MLW9;S`S]4kiO0
-Abeh
-R7
-R8
-R9
-Z149 DEx4 work 9 reg_coeff 0 22 [BX2n;KlGZbbUhnG0:Z6g2
-l24
-L20
-Z150 V719VUAo23G^XR1^f_X[H:0
-R14
-32
-R20
-R21
-R22
-R15
-R16
-Z151 !s100 01RcEFY8in9maM<IEMX6P1
-Ereg_n
-R144
-R8
-R9
-R10
-Z152 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/reg_n.vhd
-Z153 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/reg_n.vhd
-l0
-L5
-Z154 V8ZPQc:AVe1o3N`>L]@_4E0
-R14
-32
-R15
-R16
-Z155 !s100 PaJeF42036;oYR@<oe^7n2
-Abeh
-R8
-R9
-Z156 DEx4 work 5 reg_n 0 22 8ZPQc:AVe1o3N`>L]@_4E0
-l22
-L20
-Z157 Vf7KRVM;k5XY2kWaklXb]d0
-R14
-32
-R59
-R60
-R15
-R16
-Z158 !s100 cMi=9fn1O2SXIIK]JeA;?2
-vtb_fir
-Z159 I8PH8`Z;n=jnH6XX5ah]Zm2
-Z160 Vn4ToFGQLaei@:>cm_n>5j1
-R10
-Z161 w1571351176
-Z162 8/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/tb_fir.v
-Z163 F/home/lp19.26/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/tb_fir.v
-L0 3
-Z164 OL;L;6.5c;42
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+o-work work -2002 -explicit
+tExplicit 1
+vmyfir
+IVVcDUdWlQflRGfaK:i39l1
+VmEJ8Eo`mSZCmcaWjz46DG3
+w1571762317
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/netlist/myfir.v
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/netlist/myfir.v
+L0 8
+VmEJ8Eo`mSZCmcaWjz46DG3
+OE;L;6.2g;35
 r1
 31
-Z165 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
-Z166 !s100 >Ng>4?_FjU;ja7[83T:lP1
-!s85 0
-Z167 !s102 -nocovercells
+o-work work
+Pparam
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1571739554
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/param.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/param.vhd
+l0
+L5
+VB1^0AQkzfl`X:YT9OYA211
+OE;C;6.2g;35
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+o-work work -2002 -explicit
+tExplicit 1
+Ereg_coeff
+w1571739554
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/reg_coeff.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/reg_coeff.vhd
+l0
+L7
+V[BX2n;KlGZbbUhnG0:Z6g2
+OE;C;6.2g;35
+32
+o-work work -2002 -explicit
+tExplicit 1
+Abeh
+DP work param B1^0AQkzfl`X:YT9OYA211
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work reg_coeff [BX2n;KlGZbbUhnG0:Z6g2
+l24
+L20
+V719VUAo23G^XR1^f_X[H:0
+OE;C;6.2g;35
+32
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param
+o-work work -2002 -explicit
+tExplicit 1
+Ereg_n
+w1571739554
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/reg_n.vhd
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/src/reg_n.vhd
+l0
+L5
+V8ZPQc:AVe1o3N`>L]@_4E0
+OE;C;6.2g;35
+32
+o-work work -2002 -explicit
+tExplicit 1
+Abeh
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work reg_n 8ZPQc:AVe1o3N`>L]@_4E0
+l22
+L20
+Vf7KRVM;k5XY2kWaklXb]d0
+OE;C;6.2g;35
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+o-work work -2002 -explicit
+tExplicit 1
+vtb_fir
+I]5g=1Y6HdI@bJBlUdEJ6J0
+Vn4ToFGQLaei@:>cm_n>5j1
+w1571739555
+8/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/tb_fir.v
+F/home/isa01/Desktop/ISA_HW1/fir_3unfolded_pipelined/tb/tb_fir.v
+L0 3
+Vn4ToFGQLaei@:>cm_n>5j1
+OE;L;6.2g;35
+r1
+31
+o-work work

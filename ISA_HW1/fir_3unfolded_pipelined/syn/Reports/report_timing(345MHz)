@@ -1,0 +1,136 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'myfir' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : myfir
+Version: O-2018.06-SP4
+Date   : Tue Oct 22 18:22:59 2019
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: my_filter/fir_block3/reg_samples/q_reg[5]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: my_filter/fir_block3/external_reg1/q_reg[13]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  myfir              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  my_filter/fir_block3/reg_samples/q_reg[5]/CK (DFFR_X1)
+                                                          0.00 #     0.00 r
+  my_filter/fir_block3/reg_samples/q_reg[5]/Q (DFFR_X1)
+                                                          0.21       0.21 r
+  my_filter/fir_block3/reg_samples/q[5] (reg_n_n14_101)
+                                                          0.00       0.21 r
+  my_filter/fir_block3/first_coeff/a[5] (mult_n14_31)     0.00       0.21 r
+  my_filter/fir_block3/first_coeff/mult_21/a[5] (mult_n14_31_DW_mult_tc_0)
+                                                          0.00       0.21 r
+  my_filter/fir_block3/first_coeff/mult_21/U451/ZN (INV_X1)
+                                                          0.07       0.28 f
+  my_filter/fir_block3/first_coeff/mult_21/U482/Z (XOR2_X2)
+                                                          0.17       0.45 r
+  my_filter/fir_block3/first_coeff/mult_21/U679/ZN (NAND2_X1)
+                                                          0.14       0.59 f
+  my_filter/fir_block3/first_coeff/mult_21/U569/ZN (OAI22_X1)
+                                                          0.09       0.68 r
+  my_filter/fir_block3/first_coeff/mult_21/U102/S (HA_X1)
+                                                          0.09       0.76 r
+  my_filter/fir_block3/first_coeff/mult_21/U100/S (FA_X1)
+                                                          0.13       0.89 f
+  my_filter/fir_block3/first_coeff/mult_21/U694/ZN (AOI222_X1)
+                                                          0.11       1.00 r
+  my_filter/fir_block3/first_coeff/mult_21/U480/ZN (INV_X1)
+                                                          0.03       1.03 f
+  my_filter/fir_block3/first_coeff/mult_21/U693/ZN (AOI222_X1)
+                                                          0.09       1.12 r
+  my_filter/fir_block3/first_coeff/mult_21/U481/ZN (INV_X1)
+                                                          0.03       1.15 f
+  my_filter/fir_block3/first_coeff/mult_21/U416/ZN (NAND2_X1)
+                                                          0.03       1.18 r
+  my_filter/fir_block3/first_coeff/mult_21/U418/ZN (AND3_X2)
+                                                          0.05       1.23 r
+  my_filter/fir_block3/first_coeff/mult_21/U692/ZN (OAI222_X1)
+                                                          0.05       1.29 f
+  my_filter/fir_block3/first_coeff/mult_21/U422/ZN (NAND2_X1)
+                                                          0.03       1.32 r
+  my_filter/fir_block3/first_coeff/mult_21/U409/ZN (AND3_X2)
+                                                          0.06       1.38 r
+  my_filter/fir_block3/first_coeff/mult_21/U691/ZN (OAI222_X1)
+                                                          0.05       1.43 f
+  my_filter/fir_block3/first_coeff/mult_21/U17/CO (FA_X1)
+                                                          0.09       1.52 f
+  my_filter/fir_block3/first_coeff/mult_21/U16/CO (FA_X1)
+                                                          0.09       1.61 f
+  my_filter/fir_block3/first_coeff/mult_21/U15/CO (FA_X1)
+                                                          0.09       1.70 f
+  my_filter/fir_block3/first_coeff/mult_21/U14/CO (FA_X1)
+                                                          0.09       1.79 f
+  my_filter/fir_block3/first_coeff/mult_21/U13/CO (FA_X1)
+                                                          0.09       1.88 f
+  my_filter/fir_block3/first_coeff/mult_21/U12/CO (FA_X1)
+                                                          0.09       1.97 f
+  my_filter/fir_block3/first_coeff/mult_21/U11/CO (FA_X1)
+                                                          0.09       2.06 f
+  my_filter/fir_block3/first_coeff/mult_21/U10/CO (FA_X1)
+                                                          0.09       2.15 f
+  my_filter/fir_block3/first_coeff/mult_21/U9/CO (FA_X1)
+                                                          0.09       2.25 f
+  my_filter/fir_block3/first_coeff/mult_21/U8/CO (FA_X1)
+                                                          0.09       2.34 f
+  my_filter/fir_block3/first_coeff/mult_21/U7/CO (FA_X1)
+                                                          0.10       2.43 f
+  my_filter/fir_block3/first_coeff/mult_21/U467/ZN (NAND2_X1)
+                                                          0.03       2.47 r
+  my_filter/fir_block3/first_coeff/mult_21/U469/ZN (NAND3_X1)
+                                                          0.05       2.52 f
+  my_filter/fir_block3/first_coeff/mult_21/U461/ZN (NAND2_X1)
+                                                          0.04       2.55 r
+  my_filter/fir_block3/first_coeff/mult_21/U463/ZN (NAND3_X1)
+                                                          0.04       2.59 f
+  my_filter/fir_block3/first_coeff/mult_21/U488/Z (XOR2_X1)
+                                                          0.07       2.66 f
+  my_filter/fir_block3/first_coeff/mult_21/U487/ZN (XNOR2_X1)
+                                                          0.06       2.71 f
+  my_filter/fir_block3/first_coeff/mult_21/product[26] (mult_n14_31_DW_mult_tc_0)
+                                                          0.00       2.71 f
+  my_filter/fir_block3/first_coeff/res[13] (mult_n14_31)
+                                                          0.00       2.71 f
+  my_filter/fir_block3/external_reg1/d[13] (reg_n_n14_95)
+                                                          0.00       2.71 f
+  my_filter/fir_block3/external_reg1/U34/ZN (AOI22_X1)
+                                                          0.05       2.76 r
+  my_filter/fir_block3/external_reg1/U35/ZN (INV_X1)      0.02       2.78 f
+  my_filter/fir_block3/external_reg1/q_reg[13]/D (DFFR_X1)
+                                                          0.01       2.79 f
+  data arrival time                                                  2.79
+
+  clock MY_CLK (rise edge)                                2.90       2.90
+  clock network delay (ideal)                             0.00       2.90
+  clock uncertainty                                      -0.07       2.83
+  my_filter/fir_block3/external_reg1/q_reg[13]/CK (DFFR_X1)
+                                                          0.00       2.83 r
+  library setup time                                     -0.04       2.79
+  data required time                                                 2.79
+  --------------------------------------------------------------------------
+  data required time                                                 2.79
+  data arrival time                                                 -2.79
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
