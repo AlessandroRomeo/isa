@@ -22,6 +22,7 @@ signal sgnext: signed(N-1+G downto 0);
 signal d_acc : signed(N-1+G downto 0);
 signal q_acc : signed(N-1+G downto 0);
 signal q_k 	 : std_logic;
+signal gck 	 : std_logic;
 
 signal int_en : std_logic; 
 
@@ -68,7 +69,7 @@ elsif gck'event and gck='1' then
 
 	end if;
 
- elsif int_en = '0' then
+ if int_en = '0' then
 
 	if sync_clr = '1' then
 	
@@ -84,7 +85,7 @@ elsif gck'event and gck='1' then
 
 	end if;
  
--- end if;		
+ end if;		
  	
 end if;
 end process;
