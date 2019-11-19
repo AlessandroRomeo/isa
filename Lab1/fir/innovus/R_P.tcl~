@@ -1,0 +1,5 @@
+source design.globals
+set init_mmc_file mmm_design.tcl
+init_design
+
+
