@@ -1,0 +1,55 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+USE work.param_pkg.all;
+
+ENTITY mbe_mul IS
+    PORT(
+        A : IN UNSIGNED(32-1 DOWNTO 0);
+        B : IN UNSIGNED(32-1 DOWNTO 0);
+        P : OUT UNSIGNED(2*32-1 DOWNTO 0)
+        );
+END ENTITY;
+
+ARCHITECTURE structure OF mbe_mul IS
+
+    COMPONENT half_adder
+        PORT(
+            A     : IN STD_LOGIC;
+            B     : IN STD_LOGIC;
+            SUM   : OUT STD_LOGIC;
+            C_OUT : OUT STD_LOGIC
+            );				
+    END COMPONENT;
+    
+    COMPONENT full_adder
+        PORT(
+            A     : IN STD_LOGIC;
+            B     : IN STD_LOGIC;
+            C_IN  : IN STD_LOGIC;
+            SUM   : OUT STD_LOGIC;
+            C_OUT : OUT STD_LOGIC
+            );				
+    END COMPONENT;
+    
+    COMPONENT parprod_gen
+        PORT(
+            A  : IN UNSIGNED(32-1 DOWNTO 0);
+            B  : IN UNSIGNED(32-1 DOWNTO 0);
+            PP : OUT PARTIAL_PRODUCTS
+            );
+    END COMPONENT;
+    
+    SIGNAL FA_out, FA_carry : STD_LOGIC_VECTOR(N_FA DOWNTO 0);
+    SIGNAL HA_out, HA_carry : STD_LOGIC_VECTOR(N_HA DOWNTO 0);
+    
+    SIGNAL parprod : PARTIAL_PRODUCTS;
+    
+    BEGIN
+    
+        parprod_gen : parprod_gen
+            PORT MAP(
+                A  => A,
+                B  => B,
+                PP => parprod);
