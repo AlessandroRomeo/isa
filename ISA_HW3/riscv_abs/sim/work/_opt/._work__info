@@ -1,0 +1,92 @@
+m255
+13
+cModel Technology
+d/home/isa01/Desktop/ISA_HW3/riscv/sim
+T_opt
+V[QeYNmYSU>iNlZMYVJ>1H1
+06 7 4 ./work tb_main fast 0
+o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.2g -sdftyp /tb_main/UUT=../netlist/main.sdf -suppress 1948
+tExplicit 1
+OE;O;6.2g;35
+Eclk_gen
+w1571739555
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+d/home/isa01/Desktop/ISA_HW3/riscv_abs/sim
+8../tb/clk_gen.vhd
+F../tb/clk_gen.vhd
+l0
+L6
+VlKk0OVG2Lg8n7K0PBj]Ka2
+OE;C;6.2g;35
+o-93 -work ./work
+tExplicit 1
+Abeh
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work clk_gen lKk0OVG2Lg8n7K0PBj]Ka2
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+l19
+L13
+V0I[N7nc`aTZXV`Z[kReO61
+OE;C;6.2g;35
+o-93 -work ./work
+tExplicit 1
+vdata_mem
+IWDaje`lW:46Z05?AP]DY10
+V9[<;7e5@`bCC_BZn[PTzP2
+d/home/isa01/Desktop/ISA_HW3/riscv_abs/sim
+w1582309935
+8../tb/data_mem.v
+F../tb/data_mem.v
+L0 1
+V9[<;7e5@`bCC_BZn[PTzP2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+vinstr_mem
+I9ZK1eRAo<1;HYEi:XJ2Zd3
+VT;Izj^H]@@GZM1U2<MNzM0
+d/home/isa01/Desktop/ISA_HW3/riscv_abs/sim
+w1582309979
+8../tb/instr_mem.v
+F../tb/instr_mem.v
+L0 1
+VT;Izj^H]@@GZM1U2<MNzM0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+vmain
+IY<1BRW0@i<cXK>gcHo:cS0
+VdAhOS43J<EYg_lf;HNc_h1
+d/home/isa01/Desktop/ISA_HW3/riscv_abs/sim
+w1582316062
+8../netlist/main.v
+F../netlist/main.v
+L0 8
+VdAhOS43J<EYg_lf;HNc_h1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+vtb_main
+If`QV=WkfZ:T6^f[h5fObA3
+VakjzUNRmU?no`F?dkGldU3
+d/home/isa01/Desktop/ISA_HW3/riscv_abs/sim
+w1582312033
+8../tb/tb_main.v
+F../tb/tb_main.v
+L0 3
+VakjzUNRmU?no`F?dkGldU3
+OE;L;6.2g;35
+r1
+31
+o-work ./work

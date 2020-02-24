@@ -1,0 +1,30 @@
+# do project.do 
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module main
+# 
+# Top level modules:
+# 	main
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module instr_mem
+# 
+# Top level modules:
+# 	instr_mem
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_main
+# 
+# Top level modules:
+# 	tb_main
+# vsim -L /software/dk/nangate45/verilog/msim6.2g work.tb_main 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...

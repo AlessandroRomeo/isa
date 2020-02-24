@@ -1,0 +1,1 @@
+/home/isa01/Desktop/ISA_HW3/riscv_abs/netlist/main.sdc
